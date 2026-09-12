@@ -1,0 +1,27 @@
+/**
+ * @name Porsche 911 (grey coloring)
+ * @author Request
+ * @version auto updates
+ * @description Theme was created in generator https://vsthemes.org/generator/
+ * @source https://vsthemes.org/en/skins/discord/36414-porsche-911.html
+ * @authorLink https://vsthemes.org/user/Request/
+ * @authorId 2
+*/
+@import url(https://vsthemes.org/uploads/generator/client/BasicBackground.css);
+:root {
+    --transparencycolor: 0,0,0;
+    --transparencyalpha: 0.05;
+    --messagetransparency: 0.4;
+    --guildchanneltransparency: 0.15;
+    --memberlistransparency: 0;
+    --accentcolor: 122,122,122;
+    --background: url("https://vsthemes.org/uploads/posts/2021-08/1627968593_1540996158_2018-10-31_172558.webp");
+    --backdrop: rgba(0,0,0,0.2);
+    --backgroundblur: 0px;
+    --popoutblur: 0px;
+    --backdropblur: 0px;
+    --version1_0_5:none;
+    --backgroundsize: cover;
+    --popoutsize: cover;
+    --backdropsize: cover;
+}
