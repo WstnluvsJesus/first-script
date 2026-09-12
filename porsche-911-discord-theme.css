@@ -1,27 +1,31 @@
 /**
- * @name Porsche 911 (grey coloring)
- * @author Request
- * @version auto updates
- * @description Theme was created in generator https://vsthemes.org/generator/
- * @source https://vsthemes.org/en/skins/discord/36414-porsche-911.html
- * @authorLink https://vsthemes.org/user/Request/
- * @authorId 2
-*/
-@import url(https://vsthemes.org/uploads/generator/client/BasicBackground.css);
+ * @name Porsche GT3 RS - Tokyo Night
+ * @author Custom AI
+ * @version 1.0.0
+ * @description Aggressive 992 GT3 RS with wing on the streets of Tokyo.
+ */
+@import url(https://vsthemes.org);
+
 :root {
-    --transparencycolor: 0,0,0;
-    --transparencyalpha: 0.05;
-    --messagetransparency: 0.4;
-    --guildchanneltransparency: 0.15;
-    --memberlistransparency: 0;
-    --accentcolor: 122,122,122;
-    --background: url("https://vsthemes.org/uploads/posts/2021-08/1627968593_1540996158_2018-10-31_172558.webp");
-    --backdrop: rgba(0,0,0,0.2);
-    --backgroundblur: 0px;
-    --popoutblur: 0px;
-    --backdropblur: 0px;
-    --version1_0_5:none;
+    /* Background Image - GT3 RS in Tokyo at night */
+    --background: url("https://alphacoders.com");
     --backgroundsize: cover;
+    --backgroundblur: 0px;
+    
+    /* Neon Tokyo Accents (Violet/Pink) */
+    --accentcolor: 186, 42, 230; 
+    
+    /* Layout Transparencies */
+    --transparencycolor: 10, 10, 15;
+    --transparencyalpha: 0.35;        /* Subtle tint over panels */
+    --messagetransparency: 0.45;       /* See-through chat window */
+    --guildchanneltransparency: 0.25;  /* See-through server/channel list */
+    --memberlistransparency: 0.30;     /* See-through active member list */
+    
+    /* Popouts & Modals */
+    --backdrop: rgba(0, 0, 0, 0.5);
     --popoutsize: cover;
     --backdropsize: cover;
+    --popoutblur: 0px;
+    --backdropblur: 0px;
 }
